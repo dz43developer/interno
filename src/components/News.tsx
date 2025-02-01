@@ -6,7 +6,10 @@ import News_03 from "/public/images/news/03.png";
 
 const News = () => {
   return (
-    <section className="news mt-[80px] xl:mt-[150px] relative z-20  xl:mx-[11%]">
+    <section
+      id="news"
+      className="news mt-[80px] xl:mt-[150px] relative z-20  xl:mx-[11%]"
+    >
       <div className="container mx-auto px-0">
         <div className="max-w-[810px] mx-auto text-center mb-[52px] ">
           <h2 className="news__title h2 mb-3">Articles & News</h2>

@@ -14,7 +14,10 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <section className="testimonial mt-[80px] xl:mt-[200px] relative z-20 xl:mx-[11%]">
+    <section
+      id="testimonial"
+      className="testimonial mt-[80px] xl:mt-[200px] relative z-20 xl:mx-[11%]"
+    >
       <div className="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6 ">
         <div className="flex flex-col items-center pt-[88px] pb-[110px] ">
           <h2 className="testimonial__title h2 mb-9 text-center ">

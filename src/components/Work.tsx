@@ -7,7 +7,10 @@ import Work_04 from "/public/images/work/04.png";
 
 const Work = () => {
   return (
-    <section className="work mt-[80px] xl:mt-[200px] relative z-20  xl:mx-[10%]">
+    <section
+      id="work"
+      className="work mt-[80px] xl:mt-[200px] relative z-20  xl:mx-[10%]"
+    >
       <div className="container mx-auto">
         <div className="text-center mb-24">
           <h2 className="work__title h2 mb-4">Follow Our Projects</h2>
