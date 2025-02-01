@@ -48,19 +48,19 @@ const Footer = () => {
               <h3 className="h3 mb-3">Pages</h3>
               <ul className="flex flex-col gap-4">
                 <li>
-                  <Link href="">About Us</Link>
+                  <Link href="#about">About Us</Link>
                 </li>
                 <li>
-                  <Link href="">Testimonials</Link>
+                  <Link href="#testimonial">Testimonials</Link>
                 </li>
                 <li>
-                  <Link href="">Our Work</Link>
+                  <Link href="#work">Our Work</Link>
                 </li>
                 <li>
-                  <Link href="">News</Link>
+                  <Link href="#news">News</Link>
                 </li>
                 <li>
-                  <Link href="">Contact</Link>
+                  <Link href="#contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -69,16 +69,16 @@ const Footer = () => {
               <h3 className="h3 mb-3">Services</h3>
               <ul className="flex flex-col gap-4">
                 <li>
-                  <Link href="">Kitchen</Link>
+                  <Link href="#">Kitchen</Link>
                 </li>
                 <li>
-                  <Link href="">Living Area</Link>
+                  <Link href="#">Living Area</Link>
                 </li>
                 <li>
-                  <Link href="">Bathroom</Link>
+                  <Link href="#">Bathroom</Link>
                 </li>
                 <li>
-                  <Link href="">Bedroom</Link>
+                  <Link href="#">Bedroom</Link>
                 </li>
               </ul>
             </div>
