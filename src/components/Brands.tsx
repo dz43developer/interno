@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Brand_01 from "/public/images/brands/01.svg";
